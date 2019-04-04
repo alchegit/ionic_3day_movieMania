@@ -1,0 +1,108 @@
+{
+	"lastBuildDate": "Thu, 04 Apr 2019 10:09:01 +0900",
+	"total": 31,
+	"start": 1,
+	"display": 10,
+	"items": [
+		{
+			"title": "캡틴 <b>마블</b>",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=132623",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1326/132623_P22_133853.jpg",
+			"subtitle": "Captain Marvel",
+			"pubDate": "2019",
+			"director": "애너 보든|라이언 플렉|",
+			"actor": "브리 라슨|사무엘 L. 잭슨|벤 멘델슨|주드 로|",
+			"userRating": "6.67"
+		},
+		{
+			"title": "<b>마블</b> 디펜더스",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154631",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1546/154631_P01_092140.jpg",
+			"subtitle": "Marvel's Defenders",
+			"pubDate": "2017",
+			"director": "",
+			"actor": "핀 존스|존 번탈|마이크 콜터|찰리 콕스|크리스틴 리터|",
+			"userRating": "9.22"
+		},
+		{
+			"title": "<b>마블</b> 아이언 피스트 시즌1",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154182",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1541/154182_P06_140513.jpg",
+			"subtitle": "Marvel's Iron Fist",
+			"pubDate": "2017",
+			"director": "",
+			"actor": "핀 존스|제시카 헨윅|데이비드 웬햄|제시카 스트롭|톰 펠프레이|",
+			"userRating": "5.18"
+		},
+		{
+			"title": "<b>마블</b> 루크 케이지",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=138463",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1384/138463_P07_103237.jpg",
+			"subtitle": "Marvel's Luke Cage",
+			"pubDate": "2016",
+			"director": "",
+			"actor": "마이크 콜터|마허샬라 알리|알프리 우다드|테오 로시|프랭크 월리|로사리오 도슨|시몬 미식|",
+			"userRating": "8.40"
+		},
+		{
+			"title": "<b>마블</b> 데어데블 시즌1",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=127828",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1278/127828_P01_150806.jpg",
+			"subtitle": "Marvel's Daredevil",
+			"pubDate": "2015",
+			"director": "",
+			"actor": "찰리 콕스|엘든 헨슨|빈센트 도노프리오|로사리오 도슨|데보라 앤 월|존 번탈|스콧 글렌|스티븐 라이더|본디 커티스 홀|에로디 영|",
+			"userRating": "8.07"
+		},
+		{
+			"title": "<b>마블</b> 제시카 존스 시즌1",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=136921",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1369/136921_P01_153922.jpg",
+			"subtitle": "Marvel's Jessica Jones",
+			"pubDate": "2015",
+			"director": "",
+			"actor": "크리스틴 리터|데이비드 테넌트|마이크 콜터|레이첼 테일러|",
+			"userRating": "8.29"
+		},
+		{
+			"title": "<b>마블</b> 원샷",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=143826",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1438/143826_P01_135812.png",
+			"subtitle": "Marvel One-Shots",
+			"pubDate": "2015",
+			"director": "",
+			"actor": "",
+			"userRating": "5.50"
+		},
+		{
+			"title": "올웨이즈 와칭: 어 <b>마블</b> 호네츠 스토리",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=144665",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1446/144665_P01_182242.jpg",
+			"subtitle": "Always Watching: A Marble Hornets Story",
+			"pubDate": "2015",
+			"director": "제임스 모랜|",
+			"actor": "제이크 맥더맨|알렉산드라 브렉켄릿지|",
+			"userRating": "9.00"
+		},
+		{
+			"title": "<b>마블</b>원샷: 올 헤일 더 킹",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=121750",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1217/121750_P01_171643.jpg",
+			"subtitle": "Marvel One-Shot: All Hail the King",
+			"pubDate": "2014",
+			"director": "드류 피어스|",
+			"actor": "벤 킹슬리|",
+			"userRating": "7.56"
+		},
+		{
+			"title": "<b>마블</b>의 75년 : 프롬 펄프 투 팝!",
+			"link": "https://movie.naver.com/movie/bi/mi/basic.nhn?code=141859",
+			"image": "https://ssl.pstatic.net/imgmovie/mdi/mit110/1418/141859_P01_142434.jpg",
+			"subtitle": "Marvel 75 Years: From Pulp to Pop!",
+			"pubDate": "2014",
+			"director": "잭 넛슨|",
+			"actor": "악셀 알론소|헤일리 앳웰|게리 콘웨이|루이스 데스포지토|앨런 파인|세스 그린|클락 그레그|지미 키멜|스탠 리|토드 맥팔레인|패튼 오스왈트|니콜 펄맨|조 쿠에사다|케빈 스미스|짐 스탈린|에밀리 반캠프|렌 와인|밍나 웬|",
+			"userRating": "10.00"
+		}
+	]
+}

@@ -1,14 +1,30 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar>
+		<ion-title>
+			Search Movie
+		</ion-title>
+	</ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+	<div class="ion-padding">
+		{{movies.lastBuildDate}}
+		<p>If you get lost, the will be your guide.
+		</p>
+	</div>
+	<ul>
+		<li *ngFor="let movie of movies">
+			<ion-card>
+				<ion-card-header>
+					{{movie.subtitle}} ({{movie.pubDate}})
+				</ion-card-header>
+				<ion-card-title>
+					<a target="_blank" rel="noopener" href="{{movie.link}}">{{movie.title}}</a>
+				</ion-card-title>
+				<ion-card-content>
+
+				</ion-card-content>
+			</ion-card>
+		</li>
+	</ul>
 </ion-content>
