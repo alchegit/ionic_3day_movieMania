@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
+import { MovieService } from "../service/movie.service";
 import { MovieModel } from "../model/movie.model";
-import { HttpClient } from "@angular/common/http";
+import { Observable } from "rxjs";
 
 @Component({
 	selector: "app-home",
@@ -9,21 +10,26 @@ import { HttpClient } from "@angular/common/http";
 })
 export class HomePage implements OnInit {
 
-	movies: Object;
+	public searchText: string;
+	public movies: Array<any>;
 
-	constructor(private http: HttpClient) {
+	constructor(private movieService: MovieService) {
 	}
 
-	// 네이버에 접속해서 데이터를 가져온다
+	searchMovies() {
+		console.log("this.searchText: " + this.searchText);
+		this.movieService.searchMovieByKeyword(this.searchText).subscribe( result => {
+			console.log(result);
+			this.movies = result.items;
+		});
+		this.searchText = "";
+	}
+
 	ngOnInit(): void {
-		// this.http.get("https://openapi.naver.com/v1/search/movie.json")
-		this.http.get("assets/movies.json")
-			.subscribe( res => {
-				console.log(res);
-				console.log(this.movies);
-				this.movies = res;
-			});
-		console.log("code...?!");
+		this.movieService.searchMovieByKeyword("마블").subscribe( result => {
+			console.log(result);
+			this.movies = result.items;
+		});
 	}
 }
 
